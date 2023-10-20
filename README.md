@@ -1,6 +1,6 @@
 # git submodule
 
-1. `git submodule add [-d BRANCE] <REPOSITORY> [<PATH>]`
+1. `git submodule add [-b BRANCH] <REPOSITORY> [<PATH>]`
 2. add `include 'PATH'` in settings.gradle
 4. add `implementation project(':PATH')` in build.gradle dependencies
 4. `git submodule init`
