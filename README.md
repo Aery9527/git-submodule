@@ -16,8 +16,9 @@ PATH : misty-utils
    git submodule add https://github.com/Aery9527/misty-utils.git misty-utils \
    or \
    git submodule add -b develop https://github.com/Aery9527/misty-utils.git misty-utils
-2. add `include 'misty-utils'` in settings.gradle
-3. add `implementation project(':misty-utils')` in build.gradle dependencies
-4. git submodule init
+2. `git submodule init`
+3. `git submodule update --init --recursive`
+4. add `include 'misty-utils'` in settings.gradle
+5. add `implementation project(':misty-utils')` in build.gradle dependencies
 
 ---
