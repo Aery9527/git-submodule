@@ -21,3 +21,13 @@ PATH : misty-utils
 5. add `implementation project(':misty-utils')` in build.gradle dependencies
 
 ---
+
+### remove submodule
+
+1. `git submodule deinit -f <PATH>` 從 git 設定中移除 submodule
+2. `git rm -f <PATH>` 從 .git/config 裡的紀錄移除 submodule
+3. 手動刪除 .git/modules/<PATH> 資料
+4. 手動刪除 .gitmodules 裡設定
+
+
+
